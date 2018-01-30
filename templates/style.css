@@ -4,9 +4,8 @@ body {
     align-items: center;
     flex-direction: column;
     height: 100vh;
-    background: rgba(133, 220, 224, 0.81)
-    background-size: cover;
-    color: #fff;
+    background: linear-gradient(#7386a3,#1e1a68);
+    
 }
 
 form {
@@ -20,9 +19,15 @@ form {
 
 h1 {
     font-weight: 900;
+    color:blue;
 }
 
 
+.image {
+    border: 0.5px solid rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 10px #303033;
+    margin: 25px;
+}
 
 img {
     max-height: 66vh;

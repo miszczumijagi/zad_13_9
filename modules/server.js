@@ -11,10 +11,7 @@ function start() {
 
     response.writeHead(200, {"Content-Type": "text/plain; charset=utf-8"}); 
     switch (request.url) { // switch rozróżniający zapytania 
-    /*function onRequest(request, response) {
-        var parsedUrl = url.parse(request.url, true);
-        response.writeHead(200, {"Content-Type": "text/plain; charset=utf-8"});
-        switch (parsedUrl.pathname) { */
+    
 
     
         case '/':
