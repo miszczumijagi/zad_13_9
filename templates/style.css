@@ -9,7 +9,7 @@ body {
 }
 
 form {
-    background: rgba(0,0,0,0.4);
+    background: linear-gradient(#42f4c5,#317c84);
     padding: 30px;
     border-radius: 10px;
     width: 350px;
@@ -19,7 +19,7 @@ form {
 
 h1 {
     font-weight: 900;
-    color:blue;
+    color:white;
 }
 
 
